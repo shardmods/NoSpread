@@ -6,6 +6,12 @@ NoSpread removes vanilla launch randomness from standard projectile shots, makin
 
 Install on the server, or in singleplayer. A client-only install on multiplayer servers will not affect server-authoritative projectile behavior.
 
+## Behavior
+
+- Removes vanilla random spread from standard projectile launches.
+- Makes bow shots and pearl catches depend on aim and timing instead of launch RNG.
+- Still preserves server-authoritative projectile movement and collision behavior.
+
 ## Versions
 
 - `1.21.x`: Minecraft Java 1.21 through 1.21.11
