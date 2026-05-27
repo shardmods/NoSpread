@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "nospread",
+  "version": "${version}",
+  "name": "NoSpread",
+  "description": "NoSpread mod by Shard.",
+  "authors": ["Shard"],
+  "license": "Unlicense",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["sh.lyosha.nospread.NoSpread"]
+  },
+  "depends": {
+    "fabricloader": ">=0.17",
+    "minecraft": ">=1.21 <1.22"
+  },
+  "mixins": ["nospread.mixins.json"]
+}
